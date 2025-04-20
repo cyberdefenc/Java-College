@@ -1,3 +1,5 @@
+//greater among two numbers
+
 package DAY1;
 import java.util.Scanner;
 
