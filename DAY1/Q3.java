@@ -1,3 +1,4 @@
+//positive ,negative,zero check if else
 package DAY1;
 import java.util.Scanner;
 
