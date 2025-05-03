@@ -1,0 +1,20 @@
+P1. Hello to java
+P2. Java program to check whether a number is even or odd
+P3. Java program to check whether a number is even or odd user defined input
+P4. Write a program to check whether the given number is positive, negative or zero.
+P5. Program to find greater number between two numbers
+P6. Check whether a character is vowel or consonant using switch-case
+P7. Vowel or Consonant using switch case with using ASCII code
+P8. Java program to check whether a character is vowel or consonant with while loop and validate input
+P9. Print numbers from 1 to N using a for loop
+P10.Sum of first N natural numbers using while loop
+P11.Print multiplication table of a number using loop
+P12.Check whether a number is divisible by 5 and 11 using if-else
+P13.Type casting example: Convert float to int and print both
+P14.Java program to check if a number is a multiple of 3 or not
+P15.Take a character input and print its ASCII value (Type casting)
+P16.Find factorial of a number using for loop
+P17.Write a program to reverse a number using while loop
+P18.Check whether a number is prime or not using loop and if-else
+P19.Use switch-case to build a simple calculator (Add, Sub, Mul, Div)
+P20.Use switch-case to build a simple calculator (Add, Sub, Mul, Div) direct from keyboard press

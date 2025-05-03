@@ -1,0 +1,2 @@
+Q1. Prints uppercase letters A-Z with their corresponding lowercase conversions and ASCII differences.
+Q2. Displays the ASCII code of each key/button pressed on the keyboard until 'exit' is typed.

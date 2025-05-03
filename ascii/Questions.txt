@@ -1,2 +1,0 @@
-Q1. ASCII code for Upper and Lower Case Alphabets
-Q2. ASCII code of every buttons pressed in keyboard
