@@ -40,5 +40,5 @@ public class Max_min_ {
         
         sc.close();
     }
-   
+    
 }
