@@ -35,10 +35,10 @@ public class Max_min_ {
         }
         System.out.println("So Max is "+max+" and Min is "+min);
 
-        sc.close();
-
         
 
+        
+        sc.close();
     }
-    
+   
 }
