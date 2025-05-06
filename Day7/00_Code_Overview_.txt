@@ -1,0 +1,18 @@
+✅ Method Overloading Questions
+P1. Write a program to demonstrate method overloading.
+
+P2. Create a class with multiple sum methods where one takes two integers, another takes three integers, and another takes two double values. All methods should print the sum of the arguments passed.
+
+P3. Create a class that has overloaded methods for displaying the area of different shapes.
+
+P4. Overload a method calculateArea for calculating the area of a circle (use radius as the argument), rectangle (use length and width), and triangle (use base and height).
+
+P5. Overload the method print in a class to accept a string and an integer argument.
+
+P6. The method should print the string and then print the square of the integer.
+
+P7. Design a class Book with overloaded methods to display book details in different formats.
+
+P8. One method should display the title and author, and another should display the title, author, and price.
+
+P9. Write a program where you overload a method display in such a way that it can print an array of integers, an array of strings, and a 2D array of integers.
