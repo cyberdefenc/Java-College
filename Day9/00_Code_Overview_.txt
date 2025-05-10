@@ -1,0 +1,7 @@
+Encapsulation
+
+P1. Demonstrate the Encapsulation
+P2.  Create a class `BankAccount` with a private balance variable. Write getter and setter methods to
+deposit and withdraw money
+
+P3. 

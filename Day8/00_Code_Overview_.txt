@@ -1,0 +1,12 @@
+
+P1. Make a method in the same class which has main method,and call that method in main method
+P2. Accessing Different files within a same packages
+P3  Use of public,private,protected,default
+
+    
+🚪 Access Specifier Overview (Java-centric)
+Specifier	Access Scope
+public	Accessible from anywhere
+private	Accessible only within the declared class
+protected	Accessible within same package and subclasses (even outside package)
+(default)	Accessible within the same package only (no keyword needed)
