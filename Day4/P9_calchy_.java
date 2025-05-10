@@ -25,7 +25,7 @@ class Calculator {
     }
 }
 
-public class Calchy_ {
+public class P9_calchy_ {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
 

@@ -28,7 +28,7 @@ class GamingLaptop extends Laptop {
     }
 }
 
-public class M_laptop_ {
+public class P4_m_laptop_ {
     public static void main(String[] args) {
         GamingLaptop gl = new GamingLaptop();
         gl.powerOn();     // from Device

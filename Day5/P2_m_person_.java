@@ -24,7 +24,7 @@ class Monitor extends Student {
     }
 }
 
-public class M_person_ {
+public class P2_m_person_ {
     public static void main(String[] args) {
         Monitor m = new Monitor();
         m.displayName();

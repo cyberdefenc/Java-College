@@ -4,7 +4,7 @@ package ascii;
 
 import java.util.Scanner;
 
-public class ASCII_codes 
+public class P2_ascii_codes 
 {
 
     public static void main(String[] args)

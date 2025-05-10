@@ -17,7 +17,7 @@ class Novel extends Book {
     }
 }
 
-public class S_book_ {
+public class P5_s_book_ {
     public static void main(String[] args) {
         Novel n = new Novel();
         n.read();

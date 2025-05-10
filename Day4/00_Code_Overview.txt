@@ -4,6 +4,36 @@
 "A class is a blueprint for objects. A class does not occupy memory until an object is created.
 An object is an instance (i.e., an example) of a class."
 
+📘 P0. Constructor types
+      class Example 
+   {
+     Example() // default constructor
+      { 
+      System.out.println("Default Constructor Called");
+      }
+    }
+
+
+    class Example {
+    int x;
+    Example(int a) { // parameterized constructor
+        x = a;
+    }
+    }
+
+    class Example {
+    int x;
+
+    Example(int a) {
+        x = a;
+    }
+
+    // Copy Constructor
+    Example(Example e) {
+        x = e.x;
+    }
+    }
+
 📘 P1. Create a class Student with fields name, rollNumber, and marks. Write a method to display 
 student details. Create 3 student objects and display their data.
 
@@ -33,34 +63,7 @@ these methods.
 📘 P10. Create a class Laptop with brand, RAM, and price. Add a constructor to initialize values and a 
 method to display them.
 
-   class Example 
-   {
-     Example() // default constructor
-      { 
-      System.out.println("Default Constructor Called");
-      }
-    }
 
-
-    class Example {
-    int x;
-    Example(int a) { // parameterized constructor
-        x = a;
-    }
-    }
-
-    class Example {
-    int x;
-
-    Example(int a) {
-        x = a;
-    }
-
-    // Copy Constructor
-    Example(Example e) {
-        x = e.x;
-    }
-    }
 
 
 

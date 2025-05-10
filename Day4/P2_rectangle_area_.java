@@ -30,7 +30,7 @@ class Rectangle {
     }
 }
 
-public class Rectangle_area_ {
+public class P2_rectangle_area_ {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Rectangle r1 = new Rectangle();

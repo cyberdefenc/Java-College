@@ -17,7 +17,7 @@ class Student {
         
 }
 
-public class Student_details_ {
+public class P1_student_details_ {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

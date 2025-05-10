@@ -16,7 +16,7 @@ class Manager extends Employee {
     }
 }
 
-public class S_Manager_ {
+public class P1_s_Manager_ {
     public static void main(String[] args) {
         Manager mgr = new Manager();
         mgr.work();

@@ -35,7 +35,7 @@ class BankAccount {
     }
 }
 
-public class Bank_account_ {
+public class P3_bank_account_ {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

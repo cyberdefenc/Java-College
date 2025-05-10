@@ -17,7 +17,7 @@ class Car {
     }
 }
 
-public class Car_info_ {
+public class P4_car_info_ {
     public static void main(String[] args) {
         Car c1 = new Car();
         c1.brand = "Tata";

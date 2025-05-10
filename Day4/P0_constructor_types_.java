@@ -44,7 +44,7 @@ class Student {
     }
 }
 
-public class Constructor_types_ {
+public class P0_constructor_types_ {
     public static void main(String[] args) {
 
         System.out.println("Using Default Constructor:");

@@ -18,7 +18,7 @@ class Movie {
     }
 }
 
-public class Movie_ {
+public class P8_movie_ {
     public static void main(String[] args) {
         Movie[] movies = new Movie[5];
 

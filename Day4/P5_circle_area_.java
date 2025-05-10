@@ -22,7 +22,7 @@ class Circle {
     }
 }
 
-public class Circle_area_ {
+public class P5_circle_area_ {
     public static void main(String[] args) {
         Circle c1 = new Circle();
         c1.radius = 5.0;

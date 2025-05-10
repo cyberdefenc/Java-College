@@ -20,7 +20,7 @@ class Book {
     }
 }
 
-public class Book_discount_ {
+public class P6_book_discount_ {
     public static void main(String[] args) {
         Book b1 = new Book();
         b1.title = "Java Programming";

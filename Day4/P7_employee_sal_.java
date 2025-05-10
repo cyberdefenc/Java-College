@@ -21,7 +21,7 @@ class Employee {
     }
 }
 
-public class Employee_sal_ {
+public class P7_employee_sal_ {
     public static void main(String[] args) {
         Employee emp = new Employee();
         emp.name = "Utkarsh";

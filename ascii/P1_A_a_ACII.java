@@ -2,7 +2,7 @@
 
 package ascii;
 
-public class A_a_ACII {
+public class P1_A_a_ACII {
 
         public static void main(String[] args) {
             for (char ch = 'A'; ch <= 'Z'; ch++) {

@@ -22,7 +22,7 @@ class Laptop {
     }
 }
 
-public class Laptop_ {
+public class P10_laptop_ {
     public static void main(String[] args) {
         Laptop l1 = new Laptop("Dell", 16, 65000);
         Laptop l2 = new Laptop("HP", 8, 50000);

@@ -19,7 +19,7 @@ class Circle extends Shape {
     }
 }
 
-public class S_shape_ {
+public class P3_s_shape_ {
     public static void main(String[] args) {
         Circle c = new Circle();
         c.draw();
