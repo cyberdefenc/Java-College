@@ -1,7 +1,7 @@
 
 package Day8;
 
-public class Private_ {
+public class P3_private_ {
 
     public static void main(String[] args) {
         

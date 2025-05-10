@@ -1,7 +1,7 @@
 
 package Day8;
 
-public class Diff_Files_data_share_ {
+public class P2_diff_Files_data_share_ {
 
     public static void main(String[] args) {
         
