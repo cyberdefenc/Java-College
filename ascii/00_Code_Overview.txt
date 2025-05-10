@@ -1,2 +1,39 @@
-P1. Prints uppercase letters A-Z with their corresponding lowercase conversions and ASCII differences.
-P2. Displays the ASCII code of each key/button pressed on the keyboard until 'exit' is typed.
+Java Array Practice Questions 
+
+P1. Print and display array with  values given
+
+    Static members are shared across all instances (class-level), while non-static members are unique to each object (instance-level), allowing different states.
+
+P2. Instialize and empty array but with size and give default inputs
+
+P3. Instialize and empty array but with size and inputs from user and print all
+    elemetns at once with arr only
+
+P4. Instialize and empty array but with size and inputs from 
+    user and print all one by one with [i]
+
+P5. Instialize an empty array but with size and inputs from user and print
+    all one by onewith [i] and Arrays class is also used here
+
+P6. Sum of All 1D arr Elements
+
+P7. Find Maximum Element and minimum Elements
+
+P8. Find second Maximum Element and minimum Elements
+    max2 = Integer.MIN_VALUE;    -2,147,483,648
+    min2 = Integer.MAX_VALUE;     2,147,483,648
+
+P9. Find third Maximum Element and minimum Elements
+    int max1 = Integer.MIN_VALUE, max2 = Integer.MIN_VALUE, max3 = Integer.MIN_VALUE;
+    int min1 = Integer.MAX_VALUE, min2 = Integer.MAX_VALUE, min3 = Integer.MAX_VALUE;
+
+
+P10. Count Even and Odd Numbers
+ 
+P11.Sum of even and product of odd
+
+P12.Linear Search
+
+P13.Reverse the Array, do not make changes in orginal array just print output in reverse
+
+P14.Reverse the Array but make changes in orignal array
