@@ -1,0 +1,23 @@
+// Make a method in the same class which has main method,and call that method in main method
+
+
+package Day8;
+
+public class Method_in_main_class_ {
+    public static void main(String[] args) {
+     
+        Method_in_main_class_ obj=new Method_in_main_class_();
+     
+        obj.hello();
+    }
+
+       
+    int hello()
+    {
+        int a=5;
+        System.out.println("In Main Class");
+        return a;
+
+    }
+    
+}
