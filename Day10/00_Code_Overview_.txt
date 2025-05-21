@@ -8,3 +8,4 @@ even if you not use abstract keyword,it automaticaly consider it as abstract met
 It solves the problem of multiple Inheritance
 
 P2. Program to demonstrate Interface in Java
+P3. Program to demonstrate how Interfce solve the problem of Ambuigity
