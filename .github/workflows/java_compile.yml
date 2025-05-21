@@ -1,0 +1,29 @@
+name: Java Compile and Run
+
+on:
+  push:
+    branches: [main]  # or "master" if your repo uses that
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Java
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'  # Use 8, 11, or 17 as needed
+        distribution: 'temurin'
+
+    - name: Compile all Java files
+      run: |
+        find . -name "*.java" > sources.txt
+        javac @sources.txt
+
+    - name: Run Main Class (Edit this)
+      run: java day1.Main  # Replace with actual folder/class name
