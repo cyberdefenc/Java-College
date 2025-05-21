@@ -1,0 +1,10 @@
+P1. Multiple Inheritance problem in Java(Ambuigity)
+
+
+Interface
+
+It can only have abstract method
+even if you not use abstract keyword,it automaticaly consider it as abstract method
+It solves the problem of multiple Inheritance
+
+P2. Program to demonstrate Interface in Java
