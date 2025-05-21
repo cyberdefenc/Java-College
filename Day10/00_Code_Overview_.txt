@@ -1,4 +1,4 @@
-P1. Multiple Inheritance problem in Java(Ambuigity)
+P1. Multiple Inheritance problem in Java(Ambuigity) //solve later
 
 
 Interface
