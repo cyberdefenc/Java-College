@@ -6,4 +6,4 @@ P3. Write a program to take string as input if the user proceeed with null input
 P4. Write a program to take string as input if the user proceeed with null input ,handle it using throw keyword
 P5. Write a program to take string as input if the user proceeed with null input ,handle it using if else
 
-P6. find pair of number in given array which has largest sum all over
+P6. Find pair of number in given array which has largest sum allover
