@@ -21,6 +21,7 @@ public class P1_exception_handling_ {
 
         catch(Exception e){
             System.out.println("We cannot divide by zero");
+            System.out.println("Exception type "+e);
 
 
         }
