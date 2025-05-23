@@ -1,9 +1,9 @@
-
-
 package Day12;
-import java.util.ArrayList;
 
-public class P1_arrlist_ {
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class P2_sortdarr_ {
     public static void main(String[] args) {
         
         ArrayList<String> arr = new ArrayList<>();
@@ -27,11 +27,10 @@ public class P1_arrlist_ {
                
         System.out.println("ArrayList: " + arr);
 
-               arr.clear();
+        Collections.sort(arr);
         System.out.println("ArrayList: " + arr);
          
 
-
-    }
     
+}
 }
