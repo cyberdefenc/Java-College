@@ -20,7 +20,7 @@ class B{
 
 }
 
-class C extends A,B // Will throw Abugity error
+class C extends A,B // Will throw Abugity error //not allowed multiple inheritance in Java
 {
     void sum() {
         System.out.println("I am C");

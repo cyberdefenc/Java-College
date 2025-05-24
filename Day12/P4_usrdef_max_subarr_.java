@@ -1,16 +1,24 @@
 package Day12;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
-public class P3_max_subarr_ {
+public class P4_usrdef_max_subarr_ {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-      
-        int[] original = {-4, 6, 0, -7, 3, 4, -8};
+        
+        System.out.print("Enter number of elements: ");
+        int n = sc.nextInt();
 
+        int[] original = new int[n];
         ArrayList<Integer> arr = new ArrayList<>();
-        for (int num : original) {
-            arr.add(num);
+
+        
+        System.out.println("Enter array elements:");
+        for (int i = 0; i < n; i++) {
+            original[i] = sc.nextInt();
+            arr.add(original[i]);
         }
 
         
@@ -26,14 +34,14 @@ public class P3_max_subarr_ {
 
         System.out.println("Manually Sorted ArrayList: " + arr);
 
-        // Step 4: Kadane's Algorithm with subarray tracking
+        // Kadane's Algorithm with subarray tracking
         int maxSoFar = original[0];
         int currentMax = original[0];
         int start = 0;
         int end = 0;
         int tempStart = 0;
 
-        for (int i = 1; i < original.length; i++) {
+        for (int i = 1; i < n; i++) {
             if (original[i] > currentMax + original[i]) {
                 currentMax = original[i];
                 tempStart = i;
@@ -48,12 +56,14 @@ public class P3_max_subarr_ {
             }
         }
 
-        // Step 5: Print the maximum subarray and sum
+        // Step 5: Print max subarray
         System.out.print("Maximum Subarray: [ ");
         for (int i = start; i <= end; i++) {
             System.out.print(original[i] + " ");
         }
         System.out.println("]");
         System.out.println("Maximum Subarray Sum: " + maxSoFar);
+
+        sc.close();
     }
 }
