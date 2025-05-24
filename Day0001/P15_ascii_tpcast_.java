@@ -1,10 +1,10 @@
-package ascii;
-//Displays the ASCII code of each key/button pressed on the keyboard until 'exit' is typed.
+package Day0001;
+// Take a character input and print its ASCII value (Type casting)
 
 
 import java.util.Scanner;
 
-public class P2_ascii_codes 
+public class P15_ascii_tpcast_ 
 {
 
     public static void main(String[] args)

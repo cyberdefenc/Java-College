@@ -1,6 +1,6 @@
+package ascii;
 // Prints uppercase letters A-Z with their corresponding lowercase conversions and ASCII differences.
 
-package ascii;
 
 public class P1_A_a_ACII {
 
