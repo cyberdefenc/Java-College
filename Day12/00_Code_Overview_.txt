@@ -1,3 +1,4 @@
 
 P1. Dynamic array in Java that is ArrayList
 P2. Sort Dynamic array
+P3. Sort the values of arrlist and find max subarrat
