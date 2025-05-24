@@ -1,7 +1,4 @@
 package Day0011;
-// P1. Exception Handling
-
-
 
 import java.util.Scanner;
 

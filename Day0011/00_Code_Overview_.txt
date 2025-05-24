@@ -7,3 +7,6 @@ P4. Write a program to take string as input if the user proceeed with null input
 P5. Write a program to take string as input if the user proceeed with null input ,handle it using if else
 
 P6. Find pair of number in given array which has largest sum allover
+
+P7. Write a program that takes a string input from the user and prints its uppercase. Use exception
+ handling to catch if the string is null.

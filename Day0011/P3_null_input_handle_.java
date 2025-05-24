@@ -1,8 +1,5 @@
 package Day0011;
 
-// P3. Write a program to take string as input if the user proceeed with null input ,handle it
-
-
 import java.util.Scanner;
 
 public class P3_null_input_handle_ {

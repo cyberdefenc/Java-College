@@ -1,6 +1,4 @@
 package Day0011;
-// P4. Write a program to take string as input if the user proceeed with null input ,handle it using throw keyword
-
 
 import java.util.Scanner;
 

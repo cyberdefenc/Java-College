@@ -1,6 +1,4 @@
 package Day0011;
-// P6. Find pair of number in given array which has largest sum allover
-
 
 public class P6_largest_pair_arr_ {
     public static void main(String[] args) {

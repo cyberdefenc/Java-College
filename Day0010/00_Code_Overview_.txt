@@ -9,6 +9,7 @@ It solves the problem of multiple Inheritance
 
 P2. Program to demonstrate Interface in Java
 P3. Program to demonstrate how Interfce solve the problem of Ambuigity
+
 P4. Create two interfaces Walkable and Runnable. 
 Each should have a method: walk() and run() respectively.
  Then, create a class Human that implements both interfaces and defines both methods.
