@@ -1,5 +1,4 @@
 package Day0010;
-// P3. Program to demonstrate how Interfce solve the problem of Ambuigity
 
 interface Client
 {

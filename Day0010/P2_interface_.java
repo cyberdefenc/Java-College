@@ -1,6 +1,4 @@
 package Day0010;
-// P2. Program to demonstrate Interface in Java
-
 
 interface Clinet 
 {
