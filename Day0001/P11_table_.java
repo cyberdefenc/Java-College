@@ -1,5 +1,5 @@
 package Day0001;
-//Print multiplication table of a number using loop
+
 
 
 import java.util.Scanner;

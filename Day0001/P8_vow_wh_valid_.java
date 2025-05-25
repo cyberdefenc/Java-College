@@ -1,5 +1,5 @@
 package Day0001;
-// Java program to check whether a character is vowel or consonant with while loop and validate input
+
 
 import java.util.Scanner;
 

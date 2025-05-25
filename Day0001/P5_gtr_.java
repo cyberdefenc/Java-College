@@ -1,5 +1,5 @@
 package Day0001;
-// Program to find greater number between two numbers
+
 import java.util.Scanner;
 
 

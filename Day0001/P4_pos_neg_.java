@@ -1,5 +1,5 @@
 package Day0001;
-// Write a program to check whether the given number is positive, negative or zero.
+
 import java.util.Scanner;
 
 public class P4_pos_neg_ {

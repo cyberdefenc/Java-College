@@ -1,6 +1,5 @@
 package Day0001;
-//Check whether a character is vowel or consonant using switch-case 
-//acutal character without ASCII value
+
 
 import java.util.Scanner;
 

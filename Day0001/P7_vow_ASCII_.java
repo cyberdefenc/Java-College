@@ -1,5 +1,5 @@
 package Day0001;
-// Vowel or Consonant using switch case with using ASCII code
+
 
 import java.util.Scanner;
 

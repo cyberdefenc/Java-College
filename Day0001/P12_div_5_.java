@@ -1,5 +1,5 @@
 package Day0001;
-// Check whether a number is divisible by 5 and 11 using if-else
+
 
 
 import java.util.Scanner;

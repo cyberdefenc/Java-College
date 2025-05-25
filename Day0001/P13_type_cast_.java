@@ -1,5 +1,5 @@
 package Day0001;
-//Type casting example: Convert float to int and print both
+
 
 
 import java.util.Scanner;

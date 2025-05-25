@@ -1,5 +1,5 @@
 package Day0001;
-//Sum of first N natural numbers using while loop
+
 
 
 import java.util.Scanner;

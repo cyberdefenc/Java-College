@@ -1,5 +1,5 @@
 package Day0001;
-// Print numbers from 1 to N using a for loop
+
 
 import java.util.Scanner;
 
