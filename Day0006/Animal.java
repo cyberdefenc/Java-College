@@ -1,7 +1,4 @@
 package Day0006;
-// Method Override
-
-
 
 public abstract class Animal {
     abstract void makeSound();
@@ -30,6 +27,6 @@ class Cat extends Animal {
         System.out.println("Cat meows.");
     }
 }
- {
+ 
     
-}
+

@@ -1,9 +1,7 @@
 package Day0002;
 
 
-
 import java.util.Scanner;
-
 
 public class P7_max_min_ {
     public static void main(String[] args) {
