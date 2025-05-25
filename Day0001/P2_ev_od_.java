@@ -1,5 +1,5 @@
 package Day0001;
-// Java program to check whether a number is even or odd
+
 
 
 public class P2_ev_od_ {

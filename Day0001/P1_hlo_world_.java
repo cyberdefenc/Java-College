@@ -1,5 +1,4 @@
 package Day0001;
-// Hello World program in Java
 
 public class P1_hlo_world_ { 
 
