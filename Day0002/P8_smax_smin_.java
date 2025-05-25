@@ -1,5 +1,5 @@
 package Day0002;
-//Find second Maximum Element and minimum Elements
+
 
 
 import java.util.Scanner;

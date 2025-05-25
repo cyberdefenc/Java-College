@@ -1,5 +1,5 @@
 package Day0002;
-//max and min
+
 
 
 import java.util.Scanner;

@@ -1,5 +1,5 @@
 package Day0002;
-//Count Even and Odd Numbers
+
 
 
 import java.util.Scanner;

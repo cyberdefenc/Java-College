@@ -1,5 +1,5 @@
 package Day0002;
-//sum of even and product of odd
+
 
 
 import java.util.Scanner;

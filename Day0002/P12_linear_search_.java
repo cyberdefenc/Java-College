@@ -1,5 +1,5 @@
 package Day0002;
-//Linear Search
+
 
 
 import java.util.Scanner;

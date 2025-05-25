@@ -1,5 +1,5 @@
 package Day0002;
-//Reverse the Array, do not make changes in orginal array just print output in reverse
+
 
 
 import java.util.Scanner;
