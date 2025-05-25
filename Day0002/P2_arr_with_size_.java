@@ -1,5 +1,5 @@
 package Day0002;
-//Instialize and empty array but with size
+
 import java.util.Arrays; 
 
 

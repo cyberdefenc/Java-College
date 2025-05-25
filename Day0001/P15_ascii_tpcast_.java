@@ -1,5 +1,5 @@
 package Day0001;
-// Take a character input and print its ASCII value (Type casting)
+
 
 
 import java.util.Scanner;

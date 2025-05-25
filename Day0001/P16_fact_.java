@@ -1,5 +1,5 @@
 package Day0001;
-//Find factorial of a number using for loop
+
 
 
 import java.util.Scanner;

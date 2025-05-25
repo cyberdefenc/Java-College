@@ -1,5 +1,5 @@
 package Day0002;
-//Instialize and empty array but with size and inputs from user and print all one by onewith [i]
+
 
 
 import java.util.Scanner;

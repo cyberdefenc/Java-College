@@ -1,5 +1,5 @@
 package Day0001;
-//Write a program to reverse a number using while loop
+
 
 
 import java.util.Scanner;

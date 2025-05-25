@@ -1,5 +1,5 @@
 package Day0001;
-//Use switch-case to build a simple calculator (Add, Sub, Mul, Div)
+
 
 
 import java.util.Scanner;

@@ -1,5 +1,5 @@
 package Day0002;
-//Print and display array with  values given
+
 import java.util.Arrays; //in java you can not print array values directly by just calling its name
 
 

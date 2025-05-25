@@ -1,5 +1,5 @@
 package Day0002;
-//sum of 1d array elements
+
 
 
 import java.util.Scanner;

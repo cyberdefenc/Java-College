@@ -1,5 +1,5 @@
 package Day0001;
-//Check whether a number is prime or not using loop and if-else
+
 
 
 import java.util.Scanner;
