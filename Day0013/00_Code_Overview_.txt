@@ -1,0 +1,3 @@
+P1. Hash map
+P2. Find the frequency of ch in programming
+P3. count words of a line using hash map
