@@ -10,6 +10,7 @@ public class P2_freq_ {
             freqMap.put(ch, freqMap.getOrDefault(ch, 0) + 1);
         }
          System.out.println(freqMap);
+         System.out.println("Hello");
          
     }
    
