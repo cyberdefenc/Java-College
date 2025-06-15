@@ -1,6 +1,5 @@
 P1. Multiple Inheritance problem in Java(Ambuigity) //solve later
 
-
 Interface
 
 It can only have abstract method
@@ -32,12 +31,7 @@ P8. Create an interface Vehicle with a default method start() that prints "Vehic
  Call the default method from an object of Car in the main method.
 
 
-
-
-
-
-
- Why @override is good to use in override case
+Why @override is good to use in override case
  +-------------------------------+--------------------------------------------------------------+
 |       Scenario                |                      Description / Example                  |
 +-------------------------------+--------------------------------------------------------------+
