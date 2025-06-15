@@ -1,17 +1,13 @@
 Encapsulation
 
 P1. Demonstrate the Encapsulation
-P2.  Create a class `BankAccount` with a private balance variable. Write getter and setter methods to
-deposit and withdraw money
-
+P2. Create a class `BankAccount` with a private balance variable. Write getter and setter methods to
+    deposit and withdraw money
 P3. Design a class `Student` with private variables `name` and `marks`. Write methods to set and get
- the values. Also, write a method to print student details.
-
+    the values. Also, write a method to print student details.
 P4. Implement a class `Employee` that has private fields `id`, `name`, and `salary`. Provide getter and
- setter methods for each and display the employee details.
-
-P5.Write a class `Temperature` that has a private variable `celsius`. Provide methods to convert and
- return the temperature in Fahrenheit using getter.
-
-P6.Create a class `Rectangle` with private fields `length` and `width`. Write setter methods to assign
- values and getter methods to return area and perimeter.
+    setter methods for each and display the employee details.
+P5. Write a class `Temperature` that has a private variable `celsius`. Provide methods to convert and
+    return the temperature in Fahrenheit using getter.
+P6. Create a class `Rectangle` with private fields `length` and `width`. Write setter methods to assign
+    values and getter methods to return area and perimeter.
