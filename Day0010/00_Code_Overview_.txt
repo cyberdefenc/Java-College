@@ -1,75 +1,70 @@
 P1. Multiple Inheritance problem in Java(Ambuigity) //solve later
 
-Interface
+    Interface
 
-It can only have abstract method
-even if you not use abstract keyword,it automaticaly consider it as abstract method
-It solves the problem of multiple Inheritance
+    It can only have abstract method
+    even if you not use abstract keyword,it automaticaly consider it as abstract method
+    It solves the problem of multiple Inheritance
 
 P2. Program to demonstrate Interface in Java
 P3. Program to demonstrate how Interfce solve the problem of Ambuigity
-
 P4. Create two interfaces Walkable and Runnable. 
-Each should have a method: walk() and run() respectively.
- Then, create a class Human that implements both interfaces and defines both methods.
- Create a main method where an object of Human is created and both methods are called.
-
+    Each should have a method: walk() and run() respectively.
+    Then, create a class Human that implements both interfaces and defines both methods.
+    Create a main method where an object of Human is created and both methods are called.
 P5. Create two interfaces A and B. Both interfaces should have a method named display().
- Then, create a class Demo that implements both interfaces.
- Implement the display() method and call it in the main method using a Demo object.
-
+    Then, create a class Demo that implements both interfaces.
+    Implement the display() method and call it in the main method using a Demo object.
 P6. Create an interface Animal with a method makeSound().
- Then, create a class Dog that implements Animal and overrides makeSound() to print "Bark".
- In the main method, use the interface reference to call the method from Dog.
-
+    Then, create a class Dog that implements Animal and overrides makeSound() to print "Bark".
+    In the main method, use the interface reference to call the method from Dog.
 P7. Create an interface Shape with a method area().
- Then, create a class Circle that implements Shape and calculates the area using radius = 5.
- Print the area in the main method.
-
+    Then, create a class Circle that implements Shape and calculates the area using radius = 5.
+    Print the area in the main method.
 P8. Create an interface Vehicle with a default method start() that prints "Vehicle is starting...".
- Create a class Car that implements Vehicle.
- Call the default method from an object of Car in the main method.
+    Create a class Car that implements Vehicle.
+    Call the default method from an object of Car in the main method.
 
 
-Why @override is good to use in override case
- +-------------------------------+--------------------------------------------------------------+
-|       Scenario                |                      Description / Example                  |
-+-------------------------------+--------------------------------------------------------------+
-| Interface Declaration         | interface Animal {                                           |
-|                               |     void sound();                                           |
-|                               | }                                                           |
-+-------------------------------+--------------------------------------------------------------+
-| Case 1: Without @Override     | class Dog implements Animal {                               |
-| (Valid & Works Fine)          |     public void sound() {                                   |
-|                               |         System.out.println("Dog barks");                    |
-|                               |     }                                                       |
-|                               | }                                                           |
-|                               | ✅ Compiles and runs correctly.                             |
-+-------------------------------+--------------------------------------------------------------+
-| Case 2: Without @Override     | class Dog implements Animal {                               |
-| (Method name typo error)      |     public void sounds() {                                  |
-|                               |         System.out.println("Dog barks");                    |
-|                               |     }                                                       |
-|                               | }                                                           |
-|                               | ⚠️ No compile-time error, BUT method `sound()` is          |
-|                               |     NOT implemented. Interface contract is broken.          |
-+-------------------------------+--------------------------------------------------------------+
-| Case 3: With @Override        | class Dog implements Animal {                               |
-| (Correct implementation)      |     @Override                                               |
-|                               |     public void sound() {                                   |
-|                               |         System.out.println("Dog barks");                    |
-|                               |     }                                                       |
-|                               | }                                                           |
-|                               | ✅ Best practice: Ensures interface method is correctly     |
-|                               |     implemented.                                            |
-+-------------------------------+--------------------------------------------------------------+
-| Case 4: With @Override        | class Dog implements Animal {                               |
-| (Incorrect method name)       |     @Override                                               |
-|                               |     public void sounds() {                                  |
-|                               |         System.out.println("Dog barks");                    |
-|                               |     }                                                       |
-|                               | }                                                           |
-|                               | ❌ Compile-time error:                                      |
-|                               |     "Method does not override or implement..."              |
-|                               | ✅ Helps catch bugs early.                                  |
-+-------------------------------+--------------------------------------------------------------+
+    Why @override is good to use in override case
+    +-------------------------------+--------------------------------------------------------------+
+    |       Scenario                |                      Description / Example                  |
+    +-------------------------------+--------------------------------------------------------------+
+    | Interface Declaration         | interface Animal {                                           |
+    |                               |     void sound();                                           |
+    |                               | }                                                           |
+    +-------------------------------+--------------------------------------------------------------+
+    | Case 1: Without @Override     | class Dog implements Animal {                               |
+    | (Valid & Works Fine)          |     public void sound() {                                   |
+    |                               |         System.out.println("Dog barks");                    |
+    |                               |     }                                                       |
+    |                               | }                                                           |
+    |                               | ✅ Compiles and runs correctly.                             |
+    +-------------------------------+--------------------------------------------------------------+
+    | Case 2: Without @Override     | class Dog implements Animal {                               |
+    | (Method name typo error)      |     public void sounds() {                                  |
+    |                               |         System.out.println("Dog barks");                    |
+    |                               |     }                                                       |
+    |                               | }                                                           |
+    |                               | ⚠️ No compile-time error, BUT method `sound()` is          |
+    |                               |     NOT implemented. Interface contract is broken.          |
+    +-------------------------------+--------------------------------------------------------------+
+    | Case 3: With @Override        | class Dog implements Animal {                               |
+    | (Correct implementation)      |     @Override                                               |
+    |                               |     public void sound() {                                   |
+    |                               |         System.out.println("Dog barks");                    |
+    |                               |     }                                                       |
+    |                               | }                                                           |
+    |                               | ✅ Best practice: Ensures interface method is correctly     |
+    |                               |     implemented.                                            |
+    +-------------------------------+--------------------------------------------------------------+
+    | Case 4: With @Override        | class Dog implements Animal {                               |
+    | (Incorrect method name)       |     @Override                                               |
+    |                               |     public void sounds() {                                  |
+    |                               |         System.out.println("Dog barks");                    |
+    |                               |     }                                                       |
+    |                               | }                                                           |
+    |                               | ❌ Compile-time error:                                      |
+    |                               |     "Method does not override or implement..."              |
+    |                               | ✅ Helps catch bugs early.                                  |
+    +-------------------------------+--------------------------------------------------------------+
