@@ -1,28 +1,28 @@
-🔥 Java Inheritance Practice Questions 🔥
+Inheritance Practice 
 
-📘 P1. Single-Level Inheritance - Employee Example
-Create a class Employee with method work().
-Create a class Manager that inherits from Employee and adds method attendMeeting().
-Create an object of Manager and call both methods.
+P1. Single-Level Inheritance - Employee Example
+    Create a class Employee with method work().
+    Create a class Manager that inherits from Employee and adds method attendMeeting().
+    Create an object of Manager and call both methods.
 
-📘 P2. Multi-Level Inheritance - Student Example
-Create a class Person with method displayName().
-Create a class Student that inherits Person and adds method displayClass().
-Create a class Monitor that inherits Student and adds method checkDiscipline().
-Create an object of Monitor and call all three methods.
+P2. Multi-Level Inheritance - Student Example
+    Create a class Person with method displayName().
+    Create a class Student that inherits Person and adds method displayClass().
+    Create a class Monitor that inherits Student and adds method checkDiscipline().
+    Create an object of Monitor and call all three methods.
 
-📘 P3. Single-Level Inheritance - Shape Example
-Create a class Shape with method draw().
-Create a class Circle that inherits from Shape and adds method calculateArea().
-Create an object of Circle and call both methods.
+P3. Single-Level Inheritance - Shape Example
+    Create a class Shape with method draw().
+    Create a class Circle that inherits from Shape and adds method calculateArea().
+    Create an object of Circle and call both methods.
 
-📘 P4. Multi-Level Inheritance - Laptop Example
-Create a class Device with method powerOn().
-Create a class Laptop that inherits Device and adds method boot().
-Create a class GamingLaptop that inherits Laptop and adds method startGame().
-Create an object of GamingLaptop and call all three methods.
+P4. Multi-Level Inheritance - Laptop Example
+    Create a class Device with method powerOn().
+    Create a class Laptop that inherits Device and adds method boot().
+    Create a class GamingLaptop that inherits Laptop and adds method startGame().
+    Create an object of GamingLaptop and call all three methods.
 
-📘 P5. Single-Level Inheritance - Book Example
-Create a class Book with method read().
-Create a class Novel that inherits from Book and adds method storyLine().
-Create an object of Novel and call both methods.
+P5. Single-Level Inheritance - Book Example
+    Create a class Book with method read().
+    Create a class Novel that inherits from Book and adds method storyLine().
+    Create an object of Novel and call both methods.
