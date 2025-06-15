@@ -1,98 +1,44 @@
-🔥 Java Method Overriding & Abstract Class Practice 🔥
+Method Overriding & Abstract Class Practice 
 
-
----
-
-📘 P0. Use of this keyword
-
-
----
-
-📘 P01. Method Override
-
-
----
+P0. Use of this keyword
+P01. Method Override
 
 ✅ Method Overriding Questions
+ 
+P1. Write a simple program to demonstrate method overriding using classes
+P2. Prevent overriding of a method across the program using the final keyword
 
+   🔒 The final keyword only restricts method overriding in a subclass (child class).
+   🆓 It does not prevent creating a new method with the same name in an unrelated class (or completely new class).
 
----
+P3. What if final keyword is used but same method is made in completely new class
+P4. The Animal class should have a sound method (like "Animal makes sound"). The Dog class should override the sound method to print          "Bark". Create an instance of Dog and call the sound method.
 
-📘 P1. Write a simple program to demonstrate method overriding using classes
+P5. Program to demonstrate abstract class
 
+    class with abstract keyword is called abstract class, we can not create object of abstract class
+    abstract class is only accessible through its sub classes only, abstract class as superclass
+    Must be inherited by a subclass to be used
+    abstract methods declared in abstract class needs to be implemented in subclass with definition
+    Yes, it is compulsory to override all abstract methods in the subclass
+    Avoids Developer Mistakes — If not overridden, compiler shows error
 
----
+P6. Can Abstract methods in abstract class can have body
+    compile error: abstract methods cannot have a body
+    abstract void eat(); // ✅ No body allowed
 
-📘 P2. Prevent overriding of a method across the program using the final keyword
+P7. @override usage
 
-🔒 The final keyword only restricts method overriding in a subclass (child class).
-🆓 It does not prevent creating a new method with the same name in an unrelated class (or completely new class).
+    Can we use @Override in multiple subclasses? ✅ Yes
+    Does @Override restrict future overriding? ❌ No
+    Is @Override compulsory? ❌ No, but ✅ recommended
+    ❌ It is not required, but ✅ using @Override helps catch errors during compilation.
+     @Override can be used in multiple subclasses.
 
+P8.  Create an abstract class Shape with an abstract method draw.
+P9.  Program to demonstrate reference and reference variable
+     In Java, a reference is a variable that stores the memory address (or location) of an object — not the object itself.
 
----
-
-📘 P3. What if final keyword is used but same method is made in completely new class
-
-
----
-
-📘 P4. The Animal class should have a sound method (like "Animal makes sound"). The Dog class should override the sound method to print "Bark". Create an instance of Dog and call the sound method.
-
-
----
-
-📘 P5. Program to demonstrate abstract class
-
-class with abstract keyword is called abstract class, we can not create object of abstract class
-abstract class is only accessible through its sub classes only, abstract class as superclass
-Must be inherited by a subclass to be used
-abstract methods declared in abstract class needs to be implemented in subclass with definition
-Yes, it is compulsory to override all abstract methods in the subclass
-Avoids Developer Mistakes — If not overridden, compiler shows error
-
-
----
-
-📘 P6. Can Abstract methods in abstract class can have body
-
-compile error: abstract methods cannot have a body
-
-abstract void eat(); // ✅ No body allowed
-
-
----
-
-📘 P7. @override usage
-
-Can we use @Override in multiple subclasses? ✅ Yes
-Does @Override restrict future overriding? ❌ No
-Is @Override compulsory? ❌ No, but ✅ recommended
-❌ It is not required, but ✅ using @Override helps catch errors during compilation.
-@Override can be used in multiple subclasses.
-
-
----
-
-📘 P8. Create an abstract class Shape with an abstract method draw.
-
-
----
-
-📘 P9. Program to demonstrate reference and reference variable
-
-In Java, a reference is a variable that stores the memory address (or location) of an object — not the object itself.
-
-
----
-
-📘 P10. Write a program where a base class Vehicle has a startEngine method.
-
-
----
-
-📘 P11. Design a program with a base class Employee having a method calculateSalary and a subclass Manager overriding this method.
-
-
----
-
-📘 P12. Create a Person class with a displayDetails method that prints basic details (name, age).
+P10. Write a program where a base class Vehicle has a startEngine method.
+P11. Design a program with a base class Employee having a method calculateSalary and a subclass Manager overriding this method.
+P12. Create a Person class with a displayDetails method that prints basic details (name, age).
