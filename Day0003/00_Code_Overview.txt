@@ -1,31 +1,31 @@
-P1.	WAP to print natural numbers up-to 'n'
-P2.	WAP to print all even numbers between two given range
-P3.	WAP to print 'n' natural numbers in reverse order
-P4.	WAP to find sum of 'n' natural numbers
-P5.	WAP to find product of 'n' natural numbers
-P6.	WAP to extract and display all digits from a given number
-P7.	WAP to find sum of all digits in a given number
-P8.	WAP to find the count of all digits in a given number
-P9.	WAP to print reverse of a given numberH
-P10.WAP to check a number is palindrome or not
-P11.WAP to find all factors of a given number
-P12.WAP to find sum of all factors of a given number
-P13.WAP to count all the factors of a given number and display it
-P14.WAP to check the factor of a number is prime or not
-P15.Prime_1_100_  -->> WAP to print all prime numbers between 1 to 100
+P1.	 WAP to print natural numbers up-to 'n'
+P2.	 WAP to print all even numbers between two given range
+P3.	 WAP to print 'n' natural numbers in reverse order
+P4.	 WAP to find sum of 'n' natural numbers
+P5.	 WAP to find product of 'n' natural numbers
+P6.	 WAP to extract and display all digits from a given number
+P7.	 WAP to find sum of all digits in a given number
+P8.	 WAP to find the count of all digits in a given number
+P9.	 WAP to print reverse of a given numberH
+P10. WAP to check a number is palindrome or not
+P11. WAP to find all factors of a given number
+P12. WAP to find sum of all factors of a given number
+P13. WAP to count all the factors of a given number and display it
+P14. WAP to check the factor of a number is prime or not
+P15. Prime_1_100_  -->> WAP to print all prime numbers between 1 to 100
 
-    √29 ≈ 5.38  
-    So, check only: j = 2, 3, 4, 5 (since j * j <= 29)
+     √29 ≈ 5.38  
+     So, check only: j = 2, 3, 4, 5 (since j * j <= 29)
 
-    Inner Loop Execution:
-    ------------------------------------------------
-    |   j   |  j * j  |  29 % j  |   isPrime Status  |
-    |-------|---------|----------|-------------------|
-    |   2   |    4    |   ≠ 0    |   true            |
-    |   3   |    9    |   ≠ 0    |   true            |
-    |   4   |   16    |   ≠ 0    |   true            |
-    |   5   |   25    |   ≠ 0    |   true            |
-    ------------------------------------------------
+     Inner Loop Execution:
+     ------------------------------------------------
+     |   j   |  j * j  |  29 % j  |   isPrime Status  |
+     |-------|---------|----------|-------------------|
+     |   2   |    4    |   ≠ 0    |   true            |
+     |   3   |    9    |   ≠ 0    |   true            |
+     |   4   |   16    |   ≠ 0    |   true            |
+     |   5   |   25    |   ≠ 0    |   true            |
+     ------------------------------------------------
 
     🔚 Now j = 6 → 6 × 6 = 36 > 29 → Inner loop stops.
 
@@ -48,11 +48,6 @@ P15.Prime_1_100_  -->> WAP to print all prime numbers between 1 to 100
     ❌ 36 is divisible by 2 → isPrime = false  
     ➡️ **Do NOT print 36**
 
-   
- 
-  
-
-
 P16. WAP to print all prime numbers between two given range
 P17. WAP to print alternate prime numbers between 1 to 100
 P18. WAP to check a number is perfect or not
@@ -65,68 +60,66 @@ P18. WAP to check a number is perfect or not
      Sum: 1 + 2 + 4 + 7 + 14 = 28
      ✔️ So, 28 is a perfect number.
 
-P19.	WAP to print all perfect numbers between 1 to 100
-P20.	WAP to print all the perfect number between two given range
-P21.	WAP to check a number is Armstrong or not
+P19.  WAP to print all perfect numbers between 1 to 100
+P20.  WAP to print all the perfect number between two given range
+P21.  WAP to check a number is Armstrong or not
 
-        A number is Armstrong if the sum of its own digits raised to the power of the number of digits equals the number itself.
+      A number is Armstrong if the sum of its own digits raised to the power of the number of digits equals the number itself.
    
-        153 → 1³ + 5³ + 3³ = 153
+      153 → 1³ + 5³ + 3³ = 153
 
-P22.	WAP to print all Armstrong number between 1 to 100
-P23.	WAP to print all Armstrong number between two given range
-P24.	WAP to check if a number is a Harshad number
+P22.  WAP to print all Armstrong number between 1 to 100
+P23.  WAP to print all Armstrong number between two given range
+P24.  WAP to check if a number is a Harshad number
 
-        A Harshad number (or Niven number) is an integer that is divisible by the sum of its digits.
+      A Harshad number (or Niven number) is an integer that is divisible by the sum of its digits.
 
-P25.	WAP to find LCM of two numbers
+P25.  WAP to find LCM of two numbers
         
-        LCM(15,20)
-        15=3*5
-        20=2*2*5
-        LCM= 5*3*2=60
+      LCM(15,20)
+      15=3*5
+      20=2*2*5
+      LCM= 5*3*2=60
 
-        Euclidean Alog
+      Euclidean Alog
  
 ​
 
-P26.	WAP to find GCD (HCF) of two numbers
-P27.	WAP to find factorial of a number
-P28.	WAP to print Fibonacci series up to n terms
-P29.	WAP to print Fibonacci numbers in a given range
-P30.	WAP to swap two numbers
-P31.	WAP to swap first and last digit of a number
-P32.	WAP to calculate the sum of alternate digits in a number
-P33.	WAP to check whether the number is duck number
+P26.  WAP to find GCD (HCF) of two numbers
+P27.  WAP to find factorial of a number
+P28.  WAP to print Fibonacci series up to n terms
+P29.  WAP to print Fibonacci numbers in a given range
+P30.  WAP to swap two numbers
+P31.  WAP to swap first and last digit of a number
+P32.  WAP to calculate the sum of alternate digits in a number
+P33.  WAP to check whether the number is duck number
 
-        A Duck Number is a number that contains at least one zero, but not at the beginning.
+      A Duck Number is a number that contains at least one zero, but not at the beginning.
 
-        ✅ Examples: (can have more than one zero but must satisfy condition)
-        1023 → Duck Number (has a 0, not at the beginning)
+      ✅ Examples: (can have more than one zero but must satisfy condition)
+      1023 → Duck Number (has a 0, not at the beginning)
 
-        7089 → Duck Number
+       7089 → Duck Number
 
-        0123 → ❌ Not a Duck Number (starts with zero)
+       0123 → ❌ Not a Duck Number (starts with zero)
 
 
-P34.	WAP to check if a number is a Buzz number
+P34.   WAP to check if a number is a Buzz number
        
-        🔸 2. Buzz Number
-        A Buzz Number is a number that is:
+      🔸 2. Buzz Number
+       A Buzz Number is a number that is:
 
-        divisible by 7 OR ends with 7
+       divisible by 7 OR ends with 7
 
-       
+P35.   WAP to check if a number is a Magic Number
 
-P35.	WAP to check if a number is a Magic Number
+       A Magic Number is a number whose recursive sum of digits eventually results in 1.
 
-        A Magic Number is a number whose recursive sum of digits eventually results in 1.
+       ✅ Examples:
+       1729 → 1+7+2+9 = 19 → 1+9 = 10 → 1+0 = 1 → Magic Number
 
-        ✅ Examples:
-        1729 → 1+7+2+9 = 19 → 1+9 = 10 → 1+0 = 1 → Magic Number
+       19 → 1+9 = 10 → 1+0 = 1 → Magic Number
 
-        19 → 1+9 = 10 → 1+0 = 1 → Magic Number
+       1234 → 1+2+3+4 = 10 → 1+0 = 1 → Magic Number
 
-        1234 → 1+2+3+4 = 10 → 1+0 = 1 → Magic Number
-
-        29 → 2+9 = 11 → 1+1 = 2 → ❌ Not a Magic Number
+       29 → 2+9 = 11 → 1+1 = 2 → ❌ Not a Magic Number
