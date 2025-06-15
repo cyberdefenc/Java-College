@@ -1,10 +1,9 @@
-🔥 Java Practice Questions on Class and Object 🔥
------------------------------------------------
+Class and Object
 
 "A class is a blueprint for objects. A class does not occupy memory until an object is created.
 An object is an instance (i.e., an example) of a class."
 
-📘 P0. Constructor types
+P0. Constructor types
       class Example 
    {
      Example() // default constructor
@@ -34,34 +33,34 @@ An object is an instance (i.e., an example) of a class."
     }
     }
 
-📘 P1. Create a class Student with fields name, rollNumber, and marks. Write a method to display 
-student details. Create 3 student objects and display their data.
+P1.  Create a class Student with fields name, rollNumber, and marks. Write a method to display 
+     student details. Create 3 student objects and display their data.
 
-📘 P2. Create a class Rectangle with length and breadth as fields. Add methods to calculate area and 
-perimeter. Create objects with different values and call those methods.
+P2.  Create a class Rectangle with length and breadth as fields. Add methods to calculate area and 
+     perimeter. Create objects with different values and call those methods.
 
-📘 P3. Create a class BankAccount with fields accountNumber, accountHolder, and balance. Implement 
-methods to deposit and withdraw money.
+P3.  Create a class BankAccount with fields accountNumber, accountHolder, and balance. Implement 
+     methods to deposit and withdraw money.
 
-📘 P4. Create a class Car with fields brand, model, and price. Write a method to display car details. 
-Create multiple objects and display info.
+P4.  Create a class Car with fields brand, model, and price. Write a method to display car details. 
+     Create multiple objects and display info.
 
-📘 P5. Create a class Circle with radius. Write methods to calculate area and circumference of the circle.
+P5.  Create a class Circle with radius. Write methods to calculate area and circumference of the circle.
 
-📘 P6. Create a class Book with title, author, and price. Add a method to apply a discount of 10% and 
-display the final price.
+P6.  Create a class Book with title, author, and price. Add a method to apply a discount of 10% and 
+     display the final price.
 
-📘 P7. Create a class Employee with name, id, and salary. Write a method to give a 5% salary 
-increment. Print details before and after increment.
+P7.  Create a class Employee with name, id, and salary. Write a method to give a 5% salary 
+     increment. Print details before and after increment.
 
-📘 P8. Create a class Movie with name, rating, and releaseYear. Create 5 movie objects and display 
-movies released after 2020.
+P8.  Create a class Movie with name, rating, and releaseYear. Create 5 movie objects and display 
+     movies released after 2020.
 
-📘 P9. Create a class Calculator with methods add, subtract, multiply, and divide. Use objects to call 
-these methods.
+P9.  Create a class Calculator with methods add, subtract, multiply, and divide. Use objects to call 
+     these methods.
 
-📘 P10. Create a class Laptop with brand, RAM, and price. Add a constructor to initialize values and a 
-method to display them.
+P10. Create a class Laptop with brand, RAM, and price. Add a constructor to initialize values and a 
+     method to display them.
 
 
 
