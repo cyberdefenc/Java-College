@@ -38,7 +38,6 @@ P7. @override usage
 P8.  Create an abstract class Shape with an abstract method draw.
 P9.  Program to demonstrate reference and reference variable
      In Java, a reference is a variable that stores the memory address (or location) of an object — not the object itself.
-
 P10. Write a program where a base class Vehicle has a startEngine method.
 P11. Design a program with a base class Employee having a method calculateSalary and a subclass Manager overriding this method.
 P12. Create a Person class with a displayDetails method that prints basic details (name, age).
